@@ -1,13 +1,14 @@
 package com.vladimirscacodub.LibraryProject;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootTest
-class LibraryProjectApplicationTests {
+@SpringBootApplication
+public class LibraryProjectApplicationTests {
 
-	@Test
-	void contextLoads() {
+	public static void main(String[] args) {
+		SpringApplication.run(LibraryProjectApplication.class, args);
+		System.out.println("Hello world!asdasd");
 	}
 
 }
